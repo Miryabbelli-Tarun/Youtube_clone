@@ -1,0 +1,120 @@
+.play-video{
+    flex-basis: 65%;
+}
+.play-video video{
+    width: 100%;
+}
+.play-video h3{
+    font-size: 18px;
+    margin: 5px 0px;
+    font-weight: 600;
+}
+.play-video-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    font-size: 16px;
+    columns: #5a5a5a;
+}
+.play-video-info span{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.play-video-info div img{
+    width: 22px;
+    margin-right: 10px;
+}
+.play-video hr{
+    height: 1px;
+    border: 0;
+    background: #ccc;
+    margin: 10px 0px;
+}
+.publisher{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.publisher div{
+    flex: 1;
+    line-height: 18px;
+}
+.publisher img{
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.publisher div p{
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+.publisher div span{
+    font-size: 14px;
+    color: #5a5a5a;
+    
+}
+.publisher button{
+    background-color: red;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.vid-description p{
+    color: #5a5a5a;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.vid-description h4{
+    font-size: 14px;
+    color: #5a5a5a;
+    margin-top: 10px;
+}
+.comment{
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 2px;
+}
+.comment img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.comment h3{
+    font-size: 14px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 5px;
+}
+.comment h3 span{
+    font-size: 12px;
+    font-weight: 400;
+    color: #5a5a5a;
+    margin-left: 9px;
+}
+.comment p{
+    font-size: 14px;
+    font-weight: 500;
+}
+.comment-actions{
+    display: flex;
+    align-items: center;
+    margin: 8px 0px;
+    font-size: 14px;
+}
+.comment-actions img{
+    border-radius: 0;
+    width: 22px;
+    margin-right: 10px;
+}
+.comment-actions span{
+    font-size: 14px;
+    margin-right: 10px;
+    color: #5a5a5a;
+}
